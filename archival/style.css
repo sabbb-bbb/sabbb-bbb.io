@@ -1,0 +1,21 @@
+header{
+    color:darkorange;
+    text-align: end;
+}
+h1{
+    background-color: royalblue;
+    color: crimson;
+   text-align: center;
+}
+h2{
+    color: darkred;
+    border: black solid;
+    text-align: center;
+    padding: 60px;
+}
+body{
+    background-color: honeydew;
+}
+img{
+    margin-left: 200px;
+}

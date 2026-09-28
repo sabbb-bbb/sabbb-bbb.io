@@ -1,0 +1,33 @@
+:root{
+    --white: #FDFFFC;
+   --blue:  #235789;
+   --red: #C1292E;
+   --yellow: #F1D302;
+   --black: #020100;
+}
+@font-face {
+    font-family: 'graffiti';
+    src: url('fontsfolder/throwupz.ttf');
+}
+
+
+
+body{
+  background-color: var(--white);  
+  color: var(--black);
+}
+
+
+header{
+    text-align: center;
+}
+nav{display: flex;
+    justify-content: space-between;
+    background-color: var(--blue);
+    font-size: 40px;
+    font-family: 'graffiti';
+}
+
+a{
+    color: var(--yellow);
+}
