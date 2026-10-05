@@ -4,30 +4,54 @@
    --red: #C1292E;
    --yellow: #F1D302;
    --black: #020100;
+
+   --fun-font: '', sans-serif;
+   --title-font: 'Russia', sans-serif;
+   --main-font: '', sans-serif;
 }
 @font-face {
-    font-family: 'graffiti';
-    src: url('fontsfolder/throwupz.ttf');
+        font-family: 'Russia';
+    src: url('fontsfolder/Russian.ttf');
 }
 
 
 
 body{
-  background-color: var(--white);  
+  background-color: var(--yellow);  
   color: var(--black);
+  font-family: var(--main-font);
 }
 
 
 header{
-    text-align: center;
+
+   font-family: var(--title-font);
+  
+  
+   /* background image */
+    /* borders */
+    /* width 100/50/30 */
+
 }
-nav{display: flex;
+
+h1{
+    
+    color: var(--red);
+   font-size:x-small;
+
+
+}
+   
+nav{
+    display: flex;
     justify-content: space-between;
     background-color: var(--blue);
     font-size: 40px;
-    font-family: 'graffiti';
+    font-family: var(--title-font);
 }
 
 a{
     color: var(--yellow);
 }
+
+
