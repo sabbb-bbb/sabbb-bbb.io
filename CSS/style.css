@@ -15,43 +15,42 @@
 }
 
 
+body{  
+  color: var(--blue);
+  font-family: var(--title-font);
 
-body{
-  background-color: var(--yellow);  
-  color: var(--black);
-  font-family: var(--main-font);
 }
 
+p{
+    color: var(--red)
+}
 
 header{
 
-   font-family: var(--title-font);
-  
-  
+   font-family: var(--title-font);  
    /* background image */
     /* borders */
     /* width 100/50/30 */
 
 }
 
-h1{
-    
-    color: var(--red);
-   font-size:x-small;
-
-
-}
    
 nav{
-    display: flex;
-    justify-content: space-between;
+   display: flex;
+   justify-content: center;
+    text-align: center;
     background-color: var(--blue);
     font-size: 40px;
     font-family: var(--title-font);
 }
 
-a{
-    color: var(--yellow);
+aside{
+    background-color: var(--yellow);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
+
 
 

@@ -1,0 +1,12 @@
+aside{
+    width:30%;
+    float: left;
+
+}
+aside a{
+    color:blue;
+}
+main{
+    width:70%;
+    float: right;
+}
