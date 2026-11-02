@@ -1,12 +1,15 @@
-aside{
-    width:30%;
-    float: left;
+main{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+#link-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 40px;
 }
-aside a{
-    color:blue;
-}
-main{
-    width:70%;
-    float: right;
+#link-container a{
+background-color: chartreuse;
 }
